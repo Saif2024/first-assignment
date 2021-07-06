@@ -9,7 +9,7 @@ h1{
 .orange-red{
     color: black;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -28,4 +28,47 @@ section{
 .about-me{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
+}
+.best-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px gray;
+
+}
+#best-food{
+    position:relative;
+  width: 30%;
+  height: 30%;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  top:50%;
+  left:40%;
+}
+.customer{
+    display: flex;
+    padding: 40px;
+    width: 50%;
+    margin: 200px 250px;
+    text-align: center;
+    line-height: 0%;
+
+}
+.stat{
+    width: 33.33%;
+    text-align: center;
+}
+.footer{
+    background-color: black;
+    color: orange;
+    padding: 5px 40px 35px 40px;
+    font-size: 23px;
+    text-align: center;
+}
+ 
+.footer-text{
+    line-height: 0.1;
 }
